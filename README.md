@@ -1,0 +1,2 @@
+# bosdeco
+Static website
