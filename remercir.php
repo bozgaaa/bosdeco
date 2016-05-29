@@ -52,7 +52,7 @@ if (!isset($_SESSION['succesEmail'])){
 <div class="wrap">
 <header class="header">
     <!-- Navigation mobile -->
-	<div class="mm">
+	<div class="mm nav-down">
     	<div id="mmt">Contact</div>
    	 	<div id="mmb"></div>
     </div>

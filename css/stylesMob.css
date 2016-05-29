@@ -65,6 +65,7 @@
 	.body {
 		border-width: 0!important;
 		padding: 0!important;
+		padding-top: 50px!important;
 	}
 	.wrap{
 		display: initial!important;
@@ -263,6 +264,7 @@
 }
 
 #mm.on {
+	position: fixed;
 	display: block;
 	z-index: 160;
 	top: -10px;
@@ -272,15 +274,23 @@
 	-moz-animation: mmon .35s;
 	-webkit-animation: mmon .35s;
 	-o-animation: mmon .35s;
+	z-index: 1001;
 }
 
 .mm {
-	position: relative;
+	position: fixed;
 	background-color: #fff;
 	border-bottom: #bbb 1px solid;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.3);
-	min-height: 49px;
+	height: 49px;
+	top: 0;
+	transition: top 0.2s ease-in-out;
+	width: 100%;
     margin-bottom: 20px;
+	z-index: 1000;
+}
+.nav-up {
+	top: -50px;
 }
 
 #mm {

@@ -45,7 +45,7 @@
 <div class="wrap">
 <header class="header">
     <!-- Navigation mobile -->
-	<div class="mm">
+	<div class="mm nav-down">
     	<div id="mmt">Réalisations</div>
    	 	<div id="mmb"></div>
     </div>
@@ -58,12 +58,12 @@
                     <li><a href="presentation_restauration_de_meuble.html">Restauration</a></li>
                 </ul>
             </li>
-            <li><a class="current" href="m-realisations-refaire-fauteuils-chaises-canapes-meuble.html">Réalisations</a>
+            <li class="expanded"><a class="current" href="m-realisations-refaire-fauteuils-chaises-canapes-meuble.html">Réalisations</a><div></div>
             <ul>
-                <li><a href="m-realisations-refaire-fauteuils-chaises-canapes-meuble.html#avantapres">Avant/Apres</a></li>
-                <li><a href="m-realisations-refaire-fauteuils-chaises-canapes-meuble.html#fauteuils">Fauteuils/Chaises</a></li>
-                <li><a href="m-realisations-refaire-fauteuils-chaises-canapes-meuble.html#canapes">Canapés</a></li>
-                <li><a href="m-realisations-refaire-fauteuils-chaises-canapes-meuble.html#commerciaux">Commerciaux</a></li>
+                <li><a href="#" onclick="navTo('avantapres')">Avant/Apres</a></li>
+                <li><a href="#" onclick="navTo('fauteuils')">Fauteuils/Chaises</a></li>
+                <li><a href="#" onclick="navTo('canapes')">Canapés</a></li>
+                <li><a href="#" onclick="navTo('commerciaux')">Commerciaux</a></li>
             </ul>
             </li>
             <li><a href="services_de_garnissage_et_restauration_de_meuble.html">Nos Services</a></li>
@@ -154,9 +154,9 @@
             <div id="avantapres"></div>
             <h1><span class="mobile-oversized">Avant et après restauration:</span></h1>
             <div class="textMob">
-                <p id="_description" itemprop="description" class="text-justify">
+                <p itemprop="description" class="text-justify">
                     Dans notre galerie avant/après vous trouverez plusieurs réalisations faites 
-                    par notre entreprise. Des photos avant la restauration et après la restauration de différents meubles. 
+                    dans notre atelier. Des photos avant la restauration et après la restauration de différents meubles.
                 </p>	
             </div>
         </div>
@@ -165,81 +165,75 @@
         
         <div class="main-center">
             <div class="row text-center">
-                <div id="links">
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <a href="images/realisations/avant_apres/2_1big.jpg" data-gallery title="Récollage d'un fauteuil: Avant">
-                                <img src="images/realisations/avant_apres/2_1small.jpg" alt="réalisations Avant/Après garnissage"/>
-                            </a>
-                            <div class="caption">
-                                <h3>Avant</h3>
-                                <p>Garnissage et collage d'un fauteuil</p>
-                            </div>
+                <div class="col-xs-6">
+                    <div class="thumbnail">
+                        <a href="images/realisations/avant_apres/2_1big.jpg" data-gallery title="Récollage d'un fauteuil: Avant">
+                            <img src="images/realisations/avant_apres/2_1small.jpg" alt="réalisations Avant/Après garnissage"/>
+                        </a>
+                        <div class="caption">
+                            <h3>Avant</h3>
+                            <p>Garnissage et collage d'un fauteuil</p>
                         </div>
                     </div>
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <a href="images/realisations/avant_apres/2_2big.jpg" data-gallery title="Récollage d'un fauteuil: Après">
-                                <img src="images/realisations/avant_apres/2_2small.jpg" alt="Garnissage et restauration de fauteuils anciens"/>
-                            </a>
-                            <div class="caption">
-                                <h3>Après</h3>
-                                <p>Garnissage et collage d'un fauteuil</p>
-                            </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="thumbnail">
+                        <a href="images/realisations/avant_apres/2_2big.jpg" data-gallery title="Récollage d'un fauteuil: Après">
+                            <img src="images/realisations/avant_apres/2_2small.jpg" alt="Garnissage et restauration de fauteuils anciens"/>
+                        </a>
+                        <div class="caption">
+                            <h3>Après</h3>
+                            <p>Garnissage et collage d'un fauteuil</p>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="row text-center">
-                <div id="links">
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <a href="images/realisations/avant_apres/3_1big.jpg" data-gallery title="Réparation, garnissage et collage: Avant">
-                                <img src="images/realisations/avant_apres/3_1small.jpg" alt="Restauration des chaises"/>
-                            </a>
-                            <div class="caption">
-                                <h3>Avant</h3>
-                                <p>Réparation, garnissage et collage</p>
-                            </div>
+                <div class="col-xs-6">
+                    <div class="thumbnail">
+                        <a href="images/realisations/avant_apres/3_1big.jpg" data-gallery title="Réparation, garnissage et collage: Avant">
+                            <img src="images/realisations/avant_apres/3_1small.jpg" alt="Restauration des chaises"/>
+                        </a>
+                        <div class="caption">
+                            <h3>Avant</h3>
+                            <p>Réparation, garnissage et collage</p>
                         </div>
                     </div>
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <a href="images/realisations/avant_apres/3_2big.jpg" data-gallery title="Réparation, garnissage et collage: Après">
-                                <img src="images/realisations/avant_apres/3_2small.jpg" alt="Restauration des chaises"/>
-                            </a>
-                            <div class="caption">
-                                <h3>Après</h3>
-                                <p>Réparation, garnissage et collage</p>
-                            </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="thumbnail">
+                        <a href="images/realisations/avant_apres/3_2big.jpg" data-gallery title="Réparation, garnissage et collage: Après">
+                            <img src="images/realisations/avant_apres/3_2small.jpg" alt="Restauration des chaises"/>
+                        </a>
+                        <div class="caption">
+                            <h3>Après</h3>
+                            <p>Réparation, garnissage et collage</p>
                         </div>
                     </div>
                 </div>
             </div>
             
             <div class="row text-center">
-                <div id="links">
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <a href="images/realisations/avant_apres/4_1big.jpg" data-gallery title="Réparation, garnissage et collage: Avant">
-                                <img src="images/realisations/avant_apres/4_1small.jpg" alt="Garnissage d'un fauteuil"/>
-                            </a>
-                            <div class="caption">
-                                <h3>Avant</h3>
-                                <p>Dégarnissage, rembourrage et recouvrement tissu</p>
-                            </div>
+                <div class="col-xs-6">
+                    <div class="thumbnail">
+                        <a href="images/realisations/avant_apres/4_1big.jpg" data-gallery title="Réparation, garnissage et collage: Avant">
+                            <img src="images/realisations/avant_apres/4_1small.jpg" alt="Garnissage d'un fauteuil"/>
+                        </a>
+                        <div class="caption">
+                            <h3>Avant</h3>
+                            <p>Dégarnissage, rembourrage et recouvrement tissu</p>
                         </div>
                     </div>
-                    <div class="col-xs-6">
-                        <div class="thumbnail">
-                            <a href="images/realisations/avant_apres/4_2big.jpg" data-gallery title="Réparation, garnissage et collage: Après">
-                                <img src="images/realisations/avant_apres/4_2small.jpg" alt="Garnissage d'un fauteuil"/>
-                            </a>
-                            <div class="caption">
-                                <h3>Après</h3>
-                                <p>Dégarnissage, rembourrage et recouvrement tissu</p>
-                            </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="thumbnail">
+                        <a href="images/realisations/avant_apres/4_2big.jpg" data-gallery title="Réparation, garnissage et collage: Après">
+                            <img src="images/realisations/avant_apres/4_2small.jpg" alt="Garnissage d'un fauteuil"/>
+                        </a>
+                        <div class="caption">
+                            <h3>Après</h3>
+                            <p>Dégarnissage, rembourrage et recouvrement tissu</p>
                         </div>
                     </div>
                 </div>
@@ -340,7 +334,7 @@
             <div id="fauteuils"></div>
             <h1><span class="mobile-oversized">Fauteuils / Chaises:</span></h1>
             <div class="textMob">
-                <p id="_description" itemprop="description" class="text-justify">
+                <p itemprop="description" class="text-justify">
                     Sur notre page garnissage et restauration de fauteuils et chaises vous trouverez différentes réalisations de chaise et fauteuils réalisées dans notre atelier.
                 </p>	
             </div>
@@ -591,7 +585,7 @@
             <div id="canapes"></div>
             <h1><span class="mobile-oversized">Nos réalisations de canapés:</span></h1>
             <div class="textMob">
-                <p id="_description" itemprop="description" class="text-justify">
+                <p itemprop="description" class="text-justify">
                     Notre galerie réalisations de canapés vous présentera quelques réalisations des canapés. 
                     Choisisez notre atelier de garnissage et donnez plus du confort à vos canapés.
                 </p>	
@@ -659,11 +653,11 @@
         <hr class="spacer">
         
         <div class="main-top">
-            <!-- Gallery CANAPES  -->
-            <div id="canapes"></div>
+            <!-- Gallery commerciaux  -->
+            <div id="commerciaux"></div>
             <h1><span class="mobile-oversized">Commerciaux / Horeca:</span></h1>
             <div class="textMob">
-                <p id="_description" itemprop="description" class="text-justify">
+                <p itemprop="description" class="text-justify">
                     Donnez un nouveau look à vos établissements en leur apportant de l'originalité... 
                     Restauration - regarnissage - transformation de vos banquettes et chaises. <br>
 				    Nous travaillons avec des centres médicaux, des hôtels, restaurants, cinémas et tous les établissements du domaine horeca.
