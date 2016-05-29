@@ -4,6 +4,12 @@ $MAX_FILE_SIZE = 3145728;
 $output = array();
 $dataDebug = array(); // array to hold debug info
 
+if (empty($_FILES['userPhotos'])) {
+	echo json_encode(['error'=>'No files found for upload.']);
+	// or you can throw an exception
+	return; // terminate
+}
+
 $fileName = $_FILES["userPhotos"]["name"];
 $fileTmpName = $_FILES["userPhotos"]["tmp_name"];
 $fileType = $_FILES["userPhotos"]["type"];
@@ -25,7 +31,7 @@ function upload_photo($fileName, $fileTmpName, $fileType, $fileSize, $fileError)
     
     $uuid = uniqid();
 
-	$debug = true;
+	$debug = false;
 
 	if($debug){
 		$debugUpload = array();
@@ -156,6 +162,7 @@ function upload_photo($fileName, $fileTmpName, $fileType, $fileSize, $fileError)
 			}
 
 		}
+
 		$output = [
 			'initialPreview' =>
 			[
@@ -166,14 +173,17 @@ function upload_photo($fileName, $fileTmpName, $fileType, $fileSize, $fileError)
 				[
 					'caption' => $fileName,
 					'width' => '120px',
+					'size' => $fileSize,
 					'url' => 'php/delete.php',
 					'key' => $photoSrc
-				],
+				]
 			],
 			'append' => true
 		];
 	}
-	$output['Debug'] = $dataDebug;
+	if($debug){
+		$output['Debug'] = $dataDebug;
+	}
 	return $output;
 
 }

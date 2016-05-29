@@ -302,6 +302,7 @@
                             <button class="btn btn-default" type="reset">Annuler</button>
                         </div>
                     </div>
+
                 </form>
 
             </div> <!-- Fin main-content-->
@@ -463,6 +464,44 @@
 
 </div> <!-- Fin WRAP -->
 
+<!-- Modal -->
+<div class="modal fade modal-message modal-success" id="confirmationModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" >
+                <h4 class="modal-title"><span class="glyphicon glyphicon-check"></span> Success</h4>
+            </div>
+            <div class="modal-body" id="successModalContent">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">
+                    Ok
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade modal-message modal-danger" id="errorModal" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" >
+                <h4 class="modal-title"><span class="glyphicon glyphicon-fire"></span> Alert</h4>
+            </div>
+            <div class="modal-body" id="errorModalContent">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">
+                    Ok
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- JS -->
 <!-- JQuery -->
@@ -511,9 +550,9 @@
         showUpload: false, // hide upload button
         showRemove: false, // hide remove button
         showCaption: true,
+        showClose: false,
         language: "fr",
         dropZoneEnabled: false,
-        browseLabel: "Envoyez des photos...",
         browseIcon: "<i class=\"glyphicon glyphicon-picture\"></i> ",
         allowedFileTypes: ["image"],
         allowedFileExtensions: ["jpeg", "jpg", "png", "gif"],
@@ -522,7 +561,7 @@
         maxImageWidth: 500,
         maxImageHeight: 450,
         resizePreference: 'width',
-        resizeImage: true
+        resizeImage: true,
     }).on("filebatchselected", function (event, files) {
         $(":submit").prop('disabled',true); //enable submit
         $(".kv-upload-progress").hide(); //Hide bottom progressbar
@@ -531,42 +570,6 @@
     }).on('filebatchuploadcomplete', function (event, files, extra) {
         console.log('File batch upload complete');
         $(":submit").prop('disabled',false); //enable submit
-    }).on('fileclear', function (event) {
-        $(":submit").prop('disabled',true); //disable submit btn
-        console.log("fileclear");
-
-        //Delete all
-        $.ajax({
-            type: 'POST',
-            url: 'php/delete.php?all=true',
-            dataType: 'json',
-            encode: true
-        }).done(function (data) {
-            if (data && data.feedBackError) {
-                console.log("fail to delete file: ", data);
-                $('#alerts').html('<div class="alert alert-danger">' + data.error + '</div>');
-                $('html,body').animate({scrollTop: 0}, 'slow'); //navigate to body
-            }
-        }).fail(function (data) {
-            console.log("fail to delete file", data);
-            if (data && data.feedBackError) {
-                $('#alerts').html('<div class="alert alert-danger">' + data.error + '</div>');
-                $('html,body').animate({scrollTop: 0}, 'slow'); //navigate to body
-            }
-        }).always(function () {
-            $(":submit").prop('disabled',false); //enable submit
-            var $this = $(event.currentTarget);
-            var fileinput = $this.data('fileinput');
-            if (fileinput = window[fileinput]) {
-                if (fileinput.initialPreviewConfig.length) {
-                    // add hidden delete records for all in the initial preview
-                    $.each(fileinput.initialPreviewConfig, function() {
-                        filedeleted(event, this.key);
-                    });
-                }
-            }
-        });
-
     });
 
 

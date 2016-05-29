@@ -1,76 +1,81 @@
-(function ($, window, document, undefined) {
-    'use strict';
 
-    var $form = $('#contactForm');
+$(function () {
+    $('#contactForm').validator().on('submit', function (e) {
+        if (e.isDefaultPrevented()) {
+            // handle the invalid form...
+            console.log("invalid form")
+        } else {
+            e.preventDefault();
+            // remove the error class
+            $('.form-group').removeClass('has-error');
+            $('.help-block').remove();
+            $('#loading').show();
 
-    $form.submit(function (e) {
-        // remove the error class
-        $('.form-group').removeClass('has-error');
-        $('.help-block').remove();
-
-        // get the form data
-        /*
-        var formData = {
-            'userName' : $('input[name="userName"]').val(),
-            'userEmail' : $('input[name="userEmail"]').val(),
-            'userPhone' : $('input[name="userPhone"]').val(),
-            'userAddress' : $('input[name="userAddress"]').val(),
-            'userMessage' : $('textarea[name="userMessage"]').val(),
-            'userPhotos' : $('textarea[name="userPhotos"]').val()
-        };
-        */
-        
-        var formdata = (window.FormData) ? new FormData($form[0]) : null;
-        var data = (formdata !== null) ? formdata : $form.serialize();
-        $('#loading').show();
-        // process the form
-        $.ajax({
-            type : 'POST',
-            url  : 'php/contact.php',
-            contentType: false, // obligatoire pour de l'upload
-            processData: false, // obligatoire pour de l'upload
-            data : data,
-            dataType : 'json',
-            encode : true
-        }).done(function (data) {
-            $('#loading').hide();
-            $('html,body').animate({scrollTop: 0}, 'slow'); //navigate to body
-            if(data.debug){
-                console.log(data.debug)
-            }
-            // handle errors
-            if (data && data.errors && !data.success) {
-                if (data.errors.name) {
-                    $('#name-field').removeClass('has-success').addClass('has-error');
-                    $('#name-field').find('.form-control-feedback').removeClass('glyphicon-ok').addClass('glyphicon-remove');
-                    $('#name-field').find('div.col-xs-12').append('<span class="help-block">' + data.errors.name + '</span>');
+            var $form = $("#contactForm");
+            // process the form
+            $.ajax({
+                type: 'POST',
+                url: 'php/contact.php',
+                data: $form.serialize(),
+                dataType: 'json',
+                encode: true
+            }).done(function (data) {
+                $('html,body').animate({scrollTop: 0}, 'slow'); //navigate to body
+                if (data.debug) {
+                    console.log(data.debug)
                 }
+                // handle errors
+                if (data && data.errors && !data.success) {
+                    if (data.errors.name) {
+                        $('#name-field').removeClass('has-success').addClass('has-error');
+                        $('#name-field').find('.form-control-feedback').removeClass('glyphicon-ok').addClass('glyphicon-remove');
+                        $('#name-field').find('div.col-xs-12').append('<span class="help-block">' + data.errors.name + '</span>');
+                    }
 
-                if (data.errors.email) {
-                    $('#email-field').removeClass('has-success').addClass('has-error');
-                    $('#email-field').find('.form-control-feedback').removeClass('glyphicon-ok').addClass('glyphicon-remove'); 
-                    $('#email-field').find('div.col-xs-12').append('<span class="help-block">' + data.errors.email + '</span>');
+                    if (data.errors.email) {
+                        $('#email-field').removeClass('has-success').addClass('has-error');
+                        $('#email-field').find('.form-control-feedback').removeClass('glyphicon-ok').addClass('glyphicon-remove');
+                        $('#email-field').find('div.col-xs-12').append('<span class="help-block">' + data.errors.email + '</span>');
+                    }
+
+                    if (data.errors.phone) {
+                        $('#phone-field').removeClass('has-success').addClass('has-error');
+                        $('#phone-field').find('.form-control-feedback').removeClass('glyphicon-ok').addClass('glyphicon-remove');
+                        $('#phone-field').find('div.col-xs-12').append('<span class="help-block">' + data.errors.phone + '</span>');
+                    }
+                    if (data.errors.exception) {
+                        $('#error').html('<div class="alert alert-danger">' + data.errors.exception + '</div>');
+                    }
+
+                } else if (data) {
+                    // display success message
+
+                    $('#successModalContent').html('<span>' + data.message + '</span>');
+                    $('#confirmationModal').modal('toggle');
                 }
-
-                if (data.errors.phone) {
-                    $('#phone-field').removeClass('has-success').addClass('has-error');
-                    $('#phone-field').find('.form-control-feedback').removeClass('glyphicon-ok').addClass('glyphicon-remove');
-                    $('#phone-field').find('div.col-xs-12').append('<span class="help-block">' + data.errors.phone + '</span>');
+            }).fail(function (data) {
+                if (data && data.errors && !data.success) {
+                    if (data.errors.exception) {
+                        console.log(data.errors.exception);
+                        $('html,body').animate({scrollTop: 0}, 'slow'); //navigate to body
+                        $('#error').html('<div class="alert alert-danger">' + data.errors.exception + '</div>');
+                    }
+                } else {
+                    $('#errorModalContent').html('<span>Une error est survenue, l\'mail ne peut pas être envoyé!<br> Contactez-nous à partir de votre boîte mail personnel ou par téléphone svp</span>');
+                    $('#errorModal').modal('toggle')
                 }
-                if (data.errors.exception) {
-                    $('#error').html('<div class="alert alert-danger">' + data.errors.exception + '</div>');
-                }
-
-            } else if(data) {
-                // display success message
-                $form.html('<div class="alert alert-success">' + data.message + '</div>');
-            }
-        }).fail(function (data) {
-            $('#loading').hide();
-            // for debug
-            console.log(data)
-        });
-
-        e.preventDefault();
+                // for debug
+                //console.log(data)
+            }).always(function () {
+                $('#loading').hide();
+            });
+        }
     });
-}(jQuery, window, document));
+
+    $('#confirmationModal').on('hidden.bs.modal', function (e) {
+        //redirect to index
+        window.location.href = "http://bosdeco.be";
+    });
+
+
+});

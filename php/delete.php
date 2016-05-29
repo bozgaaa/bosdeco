@@ -42,35 +42,6 @@ if(isset($_POST['key'])) {
     echo json_encode($output);
 }
 
-
-
-
-function deleteAll(){
-    global $debug, $ses_id, $target_path;
-    $output = array();
-    try {
-        if ($debug) {
-            $dataDebug['sessionId'] = $ses_id;
-        }
-        if (file_exists($target_path)) {
-            $dataDebug['target_path'] = $target_path;
-            delTree($target_path);
-                $dataDebug['deleted'] = "All Files deleted";
-                $output['success'] = "All Files deleted";
-
-        } else {
-            $dataDebug['error'] = "Target path: [". $target_path."] cannot be found!!";
-        }
-    } catch (Exception $e){
-        $output['feedBackError'] = "File cannot be deleted. An unexpected error has occurred: " . $e->getMessage();
-    }
-    if($debug){
-        $output['Debug'] = $dataDebug;
-    }
-    return $output;
-}
-
-
 function delete($path){
     global $debug;
     if($debug){
@@ -99,6 +70,31 @@ function delete($path){
     return $output;
 }
 
+//Not in use
+function deleteAll(){
+    global $debug, $ses_id, $target_path;
+    $output = array();
+    try {
+        if ($debug) {
+            $dataDebug['sessionId'] = $ses_id;
+        }
+        if (file_exists($target_path)) {
+            $dataDebug['target_path'] = $target_path;
+            delTree($target_path);
+                $dataDebug['deleted'] = "All Files deleted";
+                $output['success'] = "All Files deleted";
+
+        } else {
+            $dataDebug['error'] = "Target path: [". $target_path."] cannot be found!!";
+        }
+    } catch (Exception $e){
+        $output['feedBackError'] = "File cannot be deleted. An unexpected error has occurred: " . $e->getMessage();
+    }
+    if($debug){
+        $output['Debug'] = $dataDebug;
+    }
+    return $output;
+}
 
 function delTree($dir) {
     $files = array_diff(scandir($dir), array('.','..'));
