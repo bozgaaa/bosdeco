@@ -1,0 +1,16 @@
+# -FrontPage-
+DirectoryIndex index.html index.swf myforum.html
+IndexIgnore .htaccess */.??* *~ *# */HEADER* */README* */_vti*
+
+#Catch 404 errors 
+ErrorDocument 404 /index.html
+
+<Limit GET POST>
+order deny,allow
+deny from all
+allow from all
+</Limit>
+<Limit PUT DELETE>
+order deny,allow
+deny from all
+</Limit>

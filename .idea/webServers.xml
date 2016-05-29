@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cde6751c-226a-4301-80a0-7fe21a9f810d" name="bosdeco" url="http://bosdeco.be">
+        <fileTransfer host="ftp.bosdeco.be" port="21" password="dfc8dfc5dfd0dfcddfcbdf9bdf98df9bdf9adf92df92" username="bosdeco.be">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="1c4e918b-8f94-48b3-b7d4-30a551c45791" name="XAMPP Apache" url="http://localhost">
+        <fileTransfer port="0" mountedRoot="C:\D\Tools\xampp\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

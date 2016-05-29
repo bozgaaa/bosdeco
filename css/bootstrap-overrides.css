@@ -1,0 +1,38 @@
+
+/* ----------------------------------------------------------------------------------------
+/* HEADER
+/* ---------------------------------------------------------------------------------------*/
+.navbar-default .navbar-nav>li>a{
+    
+}
+
+.navbar-collapse {
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    border: 0 solid #000;
+	background: #000000; /* Old browsers */
+	background: -moz-linear-gradient(top,  #222426 0%, #000000 79%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222426), color-stop(79%,#000000)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #222426 0%,#000000 79%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #222426 0%,#000000 79%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #222426 0%,#000000 79%); /* IE10+ */
+	background: linear-gradient(to bottom,  #222426 0%,#000000 79%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222426', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+	background-clip: padding-box;
+	padding-top: 12px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	font-family: "Vollkorn";
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	text-shadow: none;
+	text-transform: uppercase;
+	color: #fff;
+	vertical-align: top;
+	text-align: left;
+}

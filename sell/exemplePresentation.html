@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>TestProducts</title>
+<link rel="stylesheet" type="text/css" href="css/acheter.css">
+<script type="text/javascript" src="js/jquery.min.js" ></script>
+</head>
+<body>
+
+
+<div class="main">
+<script type="text/javascript">
+	jQuery(document).ready(function(){
+		jQuery('.products-grid .item').hover(function(){
+			jQuery(this).addClass('over');
+		},
+		function(){
+			jQuery(this).removeClass('over');
+		});
+	});
+</script>
+
+	<div class="products">
+		<ul class="products-grid">
+			<li class="item">           
+				<a href="http://www.meubles-mailleux.com/fr/fauteuil-pouf-norman.html" title="Fauteuil + pouf Norman" class="product-image"><img src="images/vendre/boiseries/chaises/01.jpg" width="225" height="160" alt="Fauteuil + pouf Norman"></a>
+				<h2 class="product-name">
+					<span>Chaise <br> 94 x 50 x 43 cm*</span>
+				</h2>
+						
+				<div class="price-box">
+					<span class="price">249,00&nbsp;&euro;</span>			
+				</div>
+			</li>
+			<li class="item">
+				<!-- <a href="http://www.meubles-mailleux.com/fr/relax-manuel-casa.html" title="Relax manuel Casa" class="product-image"><img src="images/vendre/boiseries/chaises/06.jpg" width="225" height="160" alt="Relax manuel Casa"></a>  -->
+				<a href="images/vendre/boiseries/chaises/06.jpg" class="product-image swipebox" title="Appuyez sur ESC pour quitter le mode Plein &eacutecran">
+					<img title="Tapissier d’ameublement - BosDeco" alt="Tapissier d’ameublement - Bos Deco" src="images/vendre/boiseries/chaises/06.jpg" width="225" height="160">
+				</a>
+				
+				<h2 class="product-name">
+					<span>Chaise m&eacutedaillon <br> 94 x 50 x 43 cm*</span>
+				</h2>
+							
+				<div class="price-box">
+					<span class="price">249,00&nbsp;&euro;</span>           
+				</div>
+		 
+			</li>
+			
+			<li class="item">
+				<a href="http://www.meubles-mailleux.com/fr/relax-manuel.html" title="Chaise médaillon" class="product-image"><img src="images/vendre/boiseries/chaises/07.jpg" width="225" height="160" alt="Chaise médaillon"></a>
+				<h2 class="product-name">
+					<span>Chaise m&eacutedaillon</span>
+				</h2>									
+				<div class="price-box">
+					<span class="price">359,00&nbsp;&euro;</span>            
+				</div>
+
+			</li>
+		</ul>
+
+	</div>
+</div>
+
+</body>
+
+</html>
