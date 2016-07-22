@@ -1,7 +1,7 @@
 'use strict';
 (function() {
 
-var app = angular.module('bosdecoApp', []);
+var app = angular.module('bosdecoApp', ['ngCart']);
 
 app.controller('GeneralController', ['$scope', function ($scope) {
     this.myVar = 'value of my var...'; 

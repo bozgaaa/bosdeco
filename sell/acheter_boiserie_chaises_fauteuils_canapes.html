@@ -58,6 +58,8 @@
 <!-- AngularJS -->
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script> <!-- Angular js-->
 <script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="https://cdn.rawgit.com/snapjay/ngCart/0.0.3-rc.2/dist/ngCart.js"></script>
+
 
 </head>
 
@@ -74,7 +76,7 @@
     </div>
 	<div id="mm">
         <ul>
-            <li class="expanded"><a href="#" class="current">Accueil</a></li>
+            <li class="expanded"><a href="index.html">Accueil</a></li>
             <li><a href="atelier_de_garnissage_belgique.html">Présentation</a><div></div>
                 <ul>
                     <li><a href="presentation_garnissage_de_meuble.html">Garnissage</a></li>
@@ -189,16 +191,16 @@
         
         <div class="main-top">
             <!-- Gallery FAUTEUILS/CHAISES  -->
-            <div id="fauteuils"></div>
+            <div id="boiseries"></div>
             <h1><span class="mobile-oversized">Boiseries:</span></h1>
             <div class="textMob">
-                <p id="_description" itemprop="description" class="text-justify">  
+                <p id="description_boiseries" itemprop="description" class="text-justify">
                     Voulez vous créer votre propré style? Décorer votre maison d'un façon unique? 
                     Choisir la couleur de votre mobilier et le tissu que vous desirez? <br>
                     La solution c'est d'acheter la boiserie que vous voulez avoir, de choisir la teinture et le tissu pour créer votre propre style.<br>
                     Sur notre page boiserie vous trouvez des carcasses pour chaises, fauteuils et canapés créés en style ancien.
                 </p>	
-                <span class="text3">Dimensions: Hauteur X Largeur X Profondeur</span>
+                <span>Dimensions: Hauteur X Largeur X Profondeur</span>
             </div>
         </div>
 
@@ -208,27 +210,25 @@
             
             <div class="main-top">
                 <!-- Gallery FAUTEUILS/CHAISES  -->
-                <div id="fauteuils"></div>
+                <div id="carcarses-chaises"></div>
                 <h1><span class="mobile-oversized">Carcasses de Chaises:</span></h1>
                 <div class="textMob">
-                    <p id="_description" itemprop="description" class="text-justify">
+                    <p id="description_carcases_chaises" itemprop="description" class="text-justify">
                         Test angular {{genCtrl.myVar}}
                     </p>	
                 </div>
             </div>
             
             <div class="row text-center">
-                <div id="links">
-                    <div class="col-xs-6 col-sm-6 col-md-4" ng-repeat="chair in genCtrl.chairs" ng-cloak>
-                        <div class="thumbnail">
-                            <a href="images/vendre/boiseries/{{chair.image}}" data-gallery title="#1">
-                                <img src="images/vendre/boiseries/{{chair.image}}" alt="{{chair.name}}" title="Tapissier d’ameublement - BosDeco"/>
-                            </a>
-                            <div class="caption">
-                                <h4>{{chair.name}}</h4>
-                                <p><br> Dim.&nbsp; {{chair.dim}} cm <br>Ref: {{chair.ref}}</p>
-                                <span>{{chair.price}}</span>
-                            </div>
+                <div class="col-xs-6 col-sm-6 col-md-4" ng-repeat="chair in genCtrl.chairs" ng-cloak>
+                    <div class="thumbnail">
+                        <a href="images/vendre/boiseries/{{chair.image}}" data-gallery title="#1">
+                            <img src="images/vendre/boiseries/{{chair.image}}" alt="{{chair.name}}" title="Tapissier d’ameublement - BosDeco"/>
+                        </a>
+                        <div class="caption">
+                            <h4>{{chair.name}}</h4>
+                            <p><br> Dim.&nbsp; {{chair.dim}} cm <br>Ref: {{chair.ref}}</p>
+                            <span>{{chair.price}} €</span>
                         </div>
                     </div>
                 </div>
@@ -250,17 +250,16 @@
             <hr class="spacer">
             
             <div class="row text-center">
-                <div id="links">
-                    <div class="col-xs-6 col-sm-6 col-md-4" ng-repeat="armchair in genCtrl.armchairs" ng-cloak>
-                        <div class="thumbnail">
-                            <a href="images/vendre/boiseries/{{armchair.image}}" data-gallery title="#1">
-                                <img src="images/vendre/boiseries/{{armchair.image}}" alt="{{armchair.name}}" title="Tapissier d’ameublement - BosDeco"/>
-                            </a>
-                            <div class="caption">
-                                <h4>{{armchair.name}}</h4>
-                                <p><br> Dim.&nbsp; {{armchair.dim}} cm <br>Ref: {{armchair.ref}}</p>
-                                <span>{{armchair.price}}</span>
-                            </div>
+                <div class="col-xs-6 col-sm-6 col-md-4" ng-repeat="armchair in genCtrl.armchairs" ng-cloak>
+                    <div class="thumbnail">
+                        <a href="images/vendre/boiseries/{{armchair.image}}" data-gallery title="#1">
+                            <img src="images/vendre/boiseries/{{armchair.image}}" alt="{{armchair.name}}" title="Tapissier d’ameublement - BosDeco"/>
+                        </a>
+                        <div class="caption">
+                            <h4>{{armchair.name}}</h4>
+                            <p><br> Dim.&nbsp; {{armchair.dim}} cm <br>Ref: {{armchair.ref}}</p>
+                            <span>{{armchair.price}}</span>
+                            <ngcart-addtocart id="item1" name="My Item #1" price="10.99" quantity="1" quantity-max="5">Add to Cart</ngcart-addtocart>
                         </div>
                     </div>
                 </div>
