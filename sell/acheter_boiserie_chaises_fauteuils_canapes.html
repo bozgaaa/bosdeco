@@ -203,8 +203,13 @@
                 <span>Dimensions: Hauteur X Largeur X Profondeur</span>
             </div>
         </div>
+        <ngcart-cart></ngcart-cart>
+        <ngcart-summary></ngcart-summary>
+
 
         <hr class="spacer">
+
+        <ngcart-checkout service="http" settings="{ url:'/checkout' }"></ngcart-checkout>
         
         <div class="main-center sell-gallery" ng-controller="GeneralController as genCtrl">
             
@@ -218,17 +223,20 @@
                     </p>	
                 </div>
             </div>
-            
-            <div class="row text-center">
-                <div class="col-xs-6 col-sm-6 col-md-4" ng-repeat="chair in genCtrl.chairs" ng-cloak>
-                    <div class="thumbnail">
-                        <a href="images/vendre/boiseries/{{chair.image}}" data-gallery title="#1">
-                            <img src="images/vendre/boiseries/{{chair.image}}" alt="{{chair.name}}" title="Tapissier d’ameublement - BosDeco"/>
-                        </a>
-                        <div class="caption">
-                            <h4>{{chair.name}}</h4>
-                            <p><br> Dim.&nbsp; {{chair.dim}} cm <br>Ref: {{chair.ref}}</p>
-                            <span>{{chair.price}} €</span>
+
+            <div ng-repeat="(index, chair) in genCtrl.chairs" ng-cloak>
+                <div class="text-center" ng-class="{'row': (index + 1) % 3 == 0}">
+                    <div class="col-xs-6 col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <a href="images/vendre/boiseries/{{chair.image}}" data-gallery title="#1">
+                                <img src="images/vendre/boiseries/{{chair.image}}" alt="{{chair.name}}" title="Tapissier d’ameublement - BosDeco"/>
+                            </a>
+                            <div class="caption">
+                                <h4>{{chair.name}}</h4>
+                                <p><br> Dim.&nbsp; {{chair.dim}} cm <br>Ref: {{chair.ref}}</p>
+                                <span>{{chair.price}} €</span>
+                            </div>
+                            <ngcart-addtocart id="{{chair.ref}}" name="{{chair.name}}" price="{{chair.price}}" quantity="1" quantity-max="5">Ajouter</ngcart-addtocart>
                         </div>
                     </div>
                 </div>

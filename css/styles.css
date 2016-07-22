@@ -652,6 +652,9 @@ header, .header {
 .main-center .thumbnail .caption {
     color: #fff;
 }
+.main-center .thumbnail .caption select {
+    color: #000;
+}
 
 .main-content .main-center.gallery .thumbnail {
     border-bottom: 0px solid rgb(203,72,0);
@@ -836,7 +839,7 @@ footer a{
 }
 
 .main-content .main-center.sell-gallery .thumbnail {
-    min-height: 485px;
+    min-height: 555px;
 }
 
 .main-content .main-center.sell-gallery .thumbnail a img {
