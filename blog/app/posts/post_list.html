@@ -1,0 +1,47 @@
+<div class="row main-top">
+    <!-- Gallery FAUTEUILS/CHAISES  -->
+    <div id="boiseries"></div>
+    <h1><span class="mobile-oversized">Blog:</span></h1>
+    <div class="textMob">
+        <p id="description_boiseries" itemprop="description" class="text-justify">
+            Voulez vous créer votre propré style? Décorer votre maison d'un façon unique?
+            Choisir la couleur de votre mobilier et le tissu que vous desirez? <br>
+            La solution c'est d'acheter la boiserie que vous voulez avoir, de choisir la teinture et le tissu pour créer votre propre style.<br>
+            Sur notre page boiserie vous trouvez des carcasses pour chaises, fauteuils et canapés créés en style ancien.
+        </p>
+        <span>Dimensions: Hauteur X Largeur X Profondeur</span>
+    </div>
+</div>
+
+<hr class="spacer">
+
+<div class="main-center">
+
+    <pre>
+        {{postsCtrl.posts | json}}
+    </pre>
+    <div class="row text-center" ng-repeat="post in postsCtrl.posts" ng-cloak>
+        <h1><span class="mobile-oversized">{{post.title}}</span></h1>
+        <div class="textMob">
+            <p class="text-justify">
+                {{post.description}}
+            </p>
+            <span>{{post.creationDate}}</span>
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+    <hr class="spacer">
+
+    <div class="main-top">
+        <!-- Gallery FAUTEUILS/CHAISES  -->
+        <div id="fauteuils"></div>
+        <h1><span class="mobile-oversized">Fauteuils / Chaises:</span></h1>
+        <div class="textMob">
+            <p id="_description" itemprop="description" class="text-justify">
+                Sur notre page garnissage et restauration de fauteuils et chaises vous trouverez différentes réalisations de chaise et fauteuils réalisées dans notre atelier.
+            </p>
+        </div>
+    </div>
+
+</div>
