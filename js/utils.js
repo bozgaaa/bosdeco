@@ -43,6 +43,30 @@ function setCarouselHeight(id)
         $(this).css('height',max+'px');
     });
 }
+
+ $(function () {
+     var testimonialsHtml = "";
+     $.map( testimonials, function( value, index ) {
+
+         console.log( "index: " + index + "; value.comment: " + value.comment + "value.signature: " + value.signature );
+
+         var html = ''+
+             '<div class="item">'+
+                '<div class="carousel-content">'+
+                    '<div>'+
+                        '<p>' + value.comment + '</p><br>' +
+                        '<span class="signatureComment">' + value.signature +'</span>' +
+                    '</div>' +
+                '</div>'+
+             '</div>';
+
+         testimonialsHtml = testimonialsHtml + html;
+     });
+     
+     $("#testimonials").html(testimonialsHtml);
+     $("#testimonials div:first-child").addClass('active');
+ });
+
     
 
  /*
@@ -98,3 +122,33 @@ _gaq.push(['_trackPageview']);
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
+
+
+
+ /*
+  * JSON data
+  * ===============================================================
+  */
+ var testimonials = [
+     {
+         comment:"J'ai bien reçu les deux fauteuils. Très beau travail! Merci beaucoup!",
+         signature:"Fabienne Delogne."
+     },
+     {
+         comment:"Je tenais tout d'abord à vous remercier pour la rapidité et l'excellente qualité de votre travail!",
+         signature:"Mark"
+     },
+     {
+         comment:"Mille mercis encore pour le fauteuil que vous m'avez rapporté à Koekelberg.",
+         signature:"Bernard"
+     },
+     {
+         comment:"Je vous remercie pour votre excellent travail. Je recommande.",
+         signature:"Paul"
+     },
+     {
+         comment:"Une gentillesse extraordinaire et un travail de qualité.",
+         signature:"Valerie"
+     }
+
+ ];
