@@ -11,8 +11,8 @@
         <a class="btn btn-sm btn-primary"
            ng-click="ngCart.addItem(id, name, price, q, data)"
            ng-transclude></a>
+        <span ng-show="inCart()">
+            <button class="btn btn-sm btn-danger" ng-click="ngCart.removeItemById(id)">Supprimer</button>
+        </span>
     </div>
-    <mark  ng-show="inCart()">
-        This item is in your cart. <a ng-click="ngCart.removeItemById(id)" style="cursor: pointer;">Remove</a>
-    </mark>
 </div>
