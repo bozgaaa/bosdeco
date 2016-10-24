@@ -74,7 +74,7 @@ $(function () {
 
     $('#confirmationModal').on('hidden.bs.modal', function (e) {
         //redirect to index
-        window.location.href = "http://bosdeco.be";
+        window.location.href = "http://bosdeco.be/remerciement.html";
     });
 
 
