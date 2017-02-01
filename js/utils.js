@@ -132,6 +132,10 @@ _gaq.push(['_trackPageview']);
   */
  var testimonials = [
      {
+         comment:"Je tenais à vous remercier pour le travail de restauration que vous avez réalisé sur notre fauteuil.",
+         signature:"Marie et Alain."
+     },
+     {
          comment:"J'ai bien reçu les deux fauteuils. Très beau travail! Merci beaucoup!",
          signature:"Fabienne Delogne."
      },

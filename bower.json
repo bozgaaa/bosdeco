@@ -1,0 +1,16 @@
+{
+  "name": "BosDeco",
+  "description": "Bosdeco atelier de garnissage",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bozgaaa/bosdeco",
+  "license": "",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-route": "1.5.8",
+    "angular-loader": "1.5.8",
+    "angular-mocks": "1.5.8",
+    "bootstrap": "3.3.7",
+    "bootstrap-validator": "0.11.9"
+  }
+}

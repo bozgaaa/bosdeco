@@ -2,7 +2,7 @@
 $(function () {
     $('#contactForm').validator().on('submit', function (e) {
         if (e.isDefaultPrevented()) {
-            // handle the invalid form...
+            // handle the invalid form..
             console.log("invalid form")
         } else {
             e.preventDefault();
