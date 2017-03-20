@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78a1edd2-3419-45a5-a378-663123631f09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/form.min.js" />
+    <list default="true" id="78a1edd2-3419-45a5-a378-663123631f09" name="Default" comment="Minify menMobileJs">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menuMobile.js" afterPath="$PROJECT_DIR$/js/menuMobile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menuMobile.min.js" afterPath="$PROJECT_DIR$/js/menuMobile.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atelier_de_garnissage_belgique.html" afterPath="$PROJECT_DIR$/atelier_de_garnissage_belgique.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/atelier_de_garnissage_specialist_horeca.html" afterPath="$PROJECT_DIR$/atelier_de_garnissage_specialist_horeca.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/avant_apres_garnissage_tapissage_fauteuils.html" afterPath="$PROJECT_DIR$/avant_apres_garnissage_tapissage_fauteuils.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/blog.html" afterPath="$PROJECT_DIR$/blog/blog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contacter_tapissier_garnisseur_de_meuble_belgique.html" afterPath="$PROJECT_DIR$/contacter_tapissier_garnisseur_de_meuble_belgique.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.min.css" afterPath="$PROJECT_DIR$/css/styles.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/garnissage_de_canape_bruxelles.html" afterPath="$PROJECT_DIR$/garnissage_de_canape_bruxelles.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/garnissage_de_fauteuil_et_chaises_belgique.html" afterPath="$PROJECT_DIR$/garnissage_de_fauteuil_et_chaises_belgique.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/utils.js" afterPath="$PROJECT_DIR$/js/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/utils.min.js" afterPath="$PROJECT_DIR$/js/utils.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/m-realisations-refaire-fauteuils-chaises-canapes-meuble.html" afterPath="$PROJECT_DIR$/m-realisations-refaire-fauteuils-chaises-canapes-meuble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation_garnissage_de_meuble.html" afterPath="$PROJECT_DIR$/presentation_garnissage_de_meuble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/presentation_restauration_de_meuble.html" afterPath="$PROJECT_DIR$/presentation_restauration_de_meuble.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes.html" afterPath="$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes_ex.html" afterPath="$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes_ex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sell/acheter_tissu_pour_chaises_fauteuils_canapes.html" afterPath="$PROJECT_DIR$/sell/acheter_tissu_pour_chaises_fauteuils_canapes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services_de_garnissage_et_restauration_de_meuble.html" afterPath="$PROJECT_DIR$/services_de_garnissage_et_restauration_de_meuble.html" />
     </list>
     <ignored path="workspace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,41 +43,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/utils.js">
+      <file leaf-file-name="atelier_de_garnissage_belgique.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atelier_de_garnissage_belgique.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="135" column="35" lean-forward="false" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+            <state relative-caret-position="420">
+              <caret line="355" column="159" lean-forward="false" selection-start-line="355" selection-start-column="159" selection-end-line="355" selection-end-column="159" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menuMobile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/menuMobile.js">
+      <file leaf-file-name="atelier_de_garnissage_specialist_horeca.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atelier_de_garnissage_specialist_horeca.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="431">
+              <caret line="425" column="159" lean-forward="false" selection-start-line="425" selection-start-column="159" selection-end-line="425" selection-end-column="159" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/form.js">
+      <file leaf-file-name="garnissage_de_fauteuil_et_chaises_belgique.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/garnissage_de_fauteuil_et_chaises_belgique.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="410">
+              <caret line="597" column="159" lean-forward="false" selection-start-line="597" selection-start-column="159" selection-end-line="597" selection-end-column="159" />
               <folding />
             </state>
           </provider>
@@ -69,8 +76,71 @@
       <file leaf-file-name="contacter_tapissier_garnisseur_de_meuble_belgique.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contacter_tapissier_garnisseur_de_meuble_belgique.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="305">
+              <caret line="526" column="15" lean-forward="false" selection-start-line="526" selection-start-column="15" selection-end-line="526" selection-end-column="15" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="garnissage_de_canape_bruxelles.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/garnissage_de_canape_bruxelles.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="425" column="159" lean-forward="false" selection-start-line="425" selection-start-column="159" selection-end-line="425" selection-end-column="159" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="presentation_garnissage_de_meuble.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presentation_garnissage_de_meuble.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="351" column="159" lean-forward="false" selection-start-line="351" selection-start-column="159" selection-end-line="351" selection-end-column="159" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="presentation_restauration_de_meuble.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/presentation_restauration_de_meuble.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="339" column="159" lean-forward="false" selection-start-line="339" selection-start-column="159" selection-end-line="339" selection-end-column="159" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services_de_garnissage_et_restauration_de_meuble.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services_de_garnissage_et_restauration_de_meuble.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="575" column="24" lean-forward="true" selection-start-line="575" selection-start-column="24" selection-end-line="575" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="m-realisations-refaire-fauteuils-chaises-canapes-meuble.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/m-realisations-refaire-fauteuils-chaises-canapes-meuble.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="893" column="159" lean-forward="false" selection-start-line="893" selection-start-column="159" selection-end-line="893" selection-end-column="159" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="avant_apres_garnissage_tapissage_fauteuils.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/avant_apres_garnissage_tapissage_fauteuils.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="538" column="159" lean-forward="false" selection-start-line="538" selection-start-column="159" selection-end-line="538" selection-end-column="159" />
               <folding />
             </state>
           </provider>
@@ -90,7 +160,24 @@
       <find>modernizr</find>
       <find>mode</find>
       <find>Indiquez un numéro de téléphone correct!</find>
+      <find>&lt;h1&gt;&lt;span class=&quot;logoText mobile-oversized&quot;&gt;BosDeco &lt;/span&gt;&lt;/h1&gt;</find>
+      <find>menuIte</find>
+      <find>class=&quot;menuitem&quot;</find>
+      <find>h1</find>
+      <find>init</find>
+      <find>init_map</find>
+      <find>map</find>
+      <find>menu</find>
+      <find>logoTe</find>
+      <find>init_ma</find>
+      <find>&lt;script src=\&quot;http://maps.google.com/maps/api/js\?sensor=false\&quot;&gt;&lt;/script&gt;</find>
+      <find>analy</find>
     </findStrings>
+    <replaceStrings>
+      <replace>&lt;p class=&quot;logoText mobile-oversized&quot;&gt;BosDeco&lt;/p&gt;</replace>
+      <replace>class=&quot;menuitem dropdown-toggle&quot;</replace>
+      <replace>&lt;script async defer src=&quot;https://maps.googleapis.com/maps/api/js?key=AIzaSyDcOzVks5iOev6hYM1SxZ06_n2hmZdNyTI&amp;callback=initMap&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,32 +198,33 @@
         <option value="$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes_ex.html" />
         <option value="$PROJECT_DIR$/sell/acheter_tissu_pour_chaises_fauteuils_canapes.html" />
         <option value="$PROJECT_DIR$/sell/js/app.js" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.bowerrc" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/js/form.js" />
+        <option value="$PROJECT_DIR$/vendors/bower_components/angular/.bower.json" />
+        <option value="$PROJECT_DIR$/js/menuMobile.js" />
         <option value="$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/css/styles.min.css" />
+        <option value="$PROJECT_DIR$/js/utils.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/atelier_de_garnissage_belgique.html" />
         <option value="$PROJECT_DIR$/atelier_de_garnissage_specialist_horeca.html" />
         <option value="$PROJECT_DIR$/avant_apres_garnissage_tapissage_fauteuils.html" />
+        <option value="$PROJECT_DIR$/contacter_tapissier_garnisseur_de_meuble_belgique.html" />
         <option value="$PROJECT_DIR$/garnissage_de_canape_bruxelles.html" />
         <option value="$PROJECT_DIR$/garnissage_de_fauteuil_et_chaises_belgique.html" />
         <option value="$PROJECT_DIR$/m-realisations-refaire-fauteuils-chaises-canapes-meuble.html" />
         <option value="$PROJECT_DIR$/presentation_garnissage_de_meuble.html" />
         <option value="$PROJECT_DIR$/presentation_restauration_de_meuble.html" />
         <option value="$PROJECT_DIR$/services_de_garnissage_et_restauration_de_meuble.html" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/js/utils.js" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/js/form.js" />
-        <option value="$PROJECT_DIR$/contacter_tapissier_garnisseur_de_meuble_belgique.html" />
-        <option value="$PROJECT_DIR$/vendors/bower_components/angular/.bower.json" />
-        <option value="$PROJECT_DIR$/js/menuMobile.js" />
       </list>
     </option>
   </component>
   <component name="JsBowerSettings">
-    <exe-path />
+    <exe-path>$USER_HOME$/AppData/Roaming/npm/bower.cmd</exe-path>
     <config-path>$PROJECT_DIR$/bower.json</config-path>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -156,10 +244,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
+    <option name="x" value="2391" />
     <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1060" />
+    <option name="width" value="2418" />
+    <option name="height" value="1331" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -262,8 +350,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,24 +362,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="bosdeco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bosdeco" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -325,8 +396,36 @@
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="menuMobile.js" />
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bosdeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bosdeco" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesMob.css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -340,22 +439,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="form.js" />
+              <option name="myItemId" value="styles.css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/bower/bin/bower" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
@@ -713,6 +811,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -720,6 +824,11 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="MongoRunConfiguration" factoryName="Mongo">
+      <setting name="path" value="" />
+      <setting name="shellParams" value="" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
@@ -950,7 +1059,10 @@
       <workItem from="1485937199562" duration="121000" />
       <workItem from="1485937381082" duration="129000" />
       <workItem from="1485959089167" duration="256000" />
-      <workItem from="1485959410331" duration="5543000" />
+      <workItem from="1485959410331" duration="5761000" />
+      <workItem from="1487691545923" duration="844000" />
+      <workItem from="1487773003027" duration="89000" />
+      <workItem from="1490001235475" duration="5883000" />
     </task>
     <task id="LOCAL-00001" summary="Update git ignore">
       <created>1464525574477</created>
@@ -973,38 +1085,47 @@
       <option name="project" value="LOCAL" />
       <updated>1485964577304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Minify menMobileJs">
+      <created>1485965037051</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1485965037051</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73206000" />
+    <option name="totallyTimeSpent" value="80240000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
+    <frame x="2391" y="-9" width="2418" height="1331" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15987125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27414164" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41216215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32590052" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22354949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4554031" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1014,7 +1135,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3265766" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1035,7 +1155,8 @@
     <MESSAGE value="Update git ignore" />
     <MESSAGE value="Shopping cart add ngCard module" />
     <MESSAGE value="Add npm and bower as package manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add npm and bower as package manager" />
+    <MESSAGE value="Minify menMobileJs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minify menMobileJs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1055,27 +1176,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/garnissage_de_canape_bruxelles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="372" column="363" lean-forward="false" selection-start-line="372" selection-start-column="363" selection-end-line="372" selection-end-column="363" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/garnissage_de_fauteuil_et_chaises_belgique.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="547" column="363" lean-forward="false" selection-start-line="547" selection-start-column="363" selection-end-line="547" selection-end-column="363" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentation_garnissage_de_meuble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="384" column="363" lean-forward="false" selection-start-line="384" selection-start-column="363" selection-end-line="384" selection-end-column="363" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentation_restauration_de_meuble.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1151,91 +1251,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sell/js/app.js" />
-    <entry file="file://$PROJECT_DIR$/atelier_de_garnissage_belgique.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5016">
-          <caret line="228" column="54" lean-forward="false" selection-start-line="228" selection-start-column="54" selection-end-line="228" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atelier_de_garnissage_specialist_horeca.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
-          <caret line="266" column="58" lean-forward="false" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avant_apres_garnissage_tapissage_fauteuils.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8272">
-          <caret line="376" column="58" lean-forward="false" selection-start-line="376" selection-start-column="58" selection-end-line="376" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/garnissage_de_canape_bruxelles.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
-          <caret line="266" column="58" lean-forward="false" selection-start-line="266" selection-start-column="58" selection-end-line="266" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/garnissage_de_fauteuil_et_chaises_belgique.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9636">
-          <caret line="438" column="58" lean-forward="false" selection-start-line="438" selection-start-column="58" selection-end-line="438" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentation_garnissage_de_meuble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4906">
-          <caret line="223" column="58" lean-forward="false" selection-start-line="223" selection-start-column="58" selection-end-line="223" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services_de_garnissage_et_restauration_de_meuble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
-          <caret line="420" column="58" lean-forward="false" selection-start-line="420" selection-start-column="58" selection-end-line="420" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presentation_restauration_de_meuble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="211" column="58" lean-forward="false" selection-start-line="211" selection-start-column="58" selection-end-line="211" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="649" column="15" lean-forward="false" selection-start-line="649" selection-start-column="15" selection-end-line="649" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/m-realisations-refaire-fauteuils-chaises-canapes-meuble.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="786">
-          <caret line="616" column="45" lean-forward="false" selection-start-line="616" selection-start-column="36" selection-end-line="616" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sell/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sell/exemplePresentation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1067">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1243,15 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1260,7 +1270,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="680">
             <caret line="40" column="62" lean-forward="false" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1270,7 +1279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1278,7 +1286,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1286,7 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1294,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1302,7 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1310,54 +1314,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/validator.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/modernizr-custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="4" lean-forward="false" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/validator.min.js" />
+    <entry file="file://$PROJECT_DIR$/js/modernizr-custom.js" />
+    <entry file="file://$PROJECT_DIR$/vendors/bower_components/angular/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menuMobile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="176" column="5" lean-forward="false" selection-start-line="176" selection-start-column="5" selection-end-line="176" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacter_tapissier_garnisseur_de_meuble_belgique.html">
+    <entry file="file://$PROJECT_DIR$/sell/acheter_boiserie_chaises_fauteuils_canapes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="4809">
+          <caret line="229" column="12" lean-forward="false" selection-start-line="229" selection-start-column="12" selection-end-line="245" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sell/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="294">
           <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendors/bower_components/angular/.bower.json">
+    <entry file="file://$PROJECT_DIR$/css/stylesMob.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="294">
+          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesMob.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="437" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="996" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="10494" lean-forward="true" selection-start-line="2" selection-start-column="10494" selection-end-line="2" selection-end-column="10494" />
           <folding />
         </state>
       </provider>
@@ -1365,23 +1393,108 @@
     <entry file="file://$PROJECT_DIR$/js/utils.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <caret line="0" column="584" lean-forward="false" selection-start-line="0" selection-start-column="584" selection-end-line="0" selection-end-column="584" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="135" column="35" lean-forward="false" selection-start-line="135" selection-start-column="35" selection-end-line="135" selection-end-column="35" />
+        <state relative-caret-position="315">
+          <caret line="111" column="44" lean-forward="false" selection-start-line="111" selection-start-column="44" selection-end-line="111" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="371" column="15" lean-forward="false" selection-start-line="371" selection-start-column="15" selection-end-line="371" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/menuMobile.js">
+    <entry file="file://$PROJECT_DIR$/atelier_de_garnissage_belgique.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="420">
+          <caret line="355" column="159" lean-forward="false" selection-start-line="355" selection-start-column="159" selection-end-line="355" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atelier_de_garnissage_specialist_horeca.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="425" column="159" lean-forward="false" selection-start-line="425" selection-start-column="159" selection-end-line="425" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avant_apres_garnissage_tapissage_fauteuils.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="538" column="159" lean-forward="false" selection-start-line="538" selection-start-column="159" selection-end-line="538" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contacter_tapissier_garnisseur_de_meuble_belgique.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="526" column="15" lean-forward="false" selection-start-line="526" selection-start-column="15" selection-end-line="526" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#small#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/garnissage_de_canape_bruxelles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="425" column="159" lean-forward="false" selection-start-line="425" selection-start-column="159" selection-end-line="425" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/garnissage_de_fauteuil_et_chaises_belgique.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="597" column="159" lean-forward="false" selection-start-line="597" selection-start-column="159" selection-end-line="597" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/m-realisations-refaire-fauteuils-chaises-canapes-meuble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="893" column="159" lean-forward="false" selection-start-line="893" selection-start-column="159" selection-end-line="893" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation_garnissage_de_meuble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="351" column="159" lean-forward="false" selection-start-line="351" selection-start-column="159" selection-end-line="351" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presentation_restauration_de_meuble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="339" column="159" lean-forward="false" selection-start-line="339" selection-start-column="159" selection-end-line="339" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services_de_garnissage_et_restauration_de_meuble.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="575" column="24" lean-forward="true" selection-start-line="575" selection-start-column="24" selection-end-line="575" selection-end-column="24" />
           <folding />
         </state>
       </provider>

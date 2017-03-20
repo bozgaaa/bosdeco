@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="cde6751c-226a-4301-80a0-7fe21a9f810d" name="bosdeco" url="http://bosdeco.be">
-        <fileTransfer host="ftp.bosdeco.be" port="21" password="dfc8dfc5dfd0dfcddfcbdf9bdf98df9bdf9adf92df92" username="bosdeco.be">
+      <webServer id="cde6751c-226a-4301-80a0-7fe21a9f810d" name="bosdeco" url="http://www.bosdeco.be">
+        <fileTransfer host="ftp.bosdeco.be" port="21" username="bosdeco.be" password="dfc8dfc5dfd0dfcddfcbdf9bdf98df9bdf9adf92df92">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>
